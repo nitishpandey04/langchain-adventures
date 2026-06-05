@@ -51,3 +51,7 @@ The response will contain `research` (raw findings) and `report` (final written 
 
 - **OpenAI**: https://platform.openai.com/api-keys
 - **Tavily**: https://tavily.com/
+
+## License
+
+[MIT](LICENSE)
