@@ -1,0 +1,15 @@
+[project]
+name = "research-assistant"
+version = "0.1.0"
+description = "A simple 2-agent research system: researcher + writer"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=0.4.1",
+    "langchain-openai>=0.3.0",
+    "langchain-tavily>=0.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "langgraph-cli[inmem]>=0.2.10",
+]
